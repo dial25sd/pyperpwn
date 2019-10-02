@@ -13,9 +13,8 @@ $$ |      \$$$$$$  |$$ |                          $$ |
 
 
 ```
-***
-##Automated successs verification of exploits for Penetration Testing with Metasploit
-####This tool is made for use in Penetration Testing tasks. Use at your own risk.
+## Automated successs verification of exploits for Penetration Testing with Metasploit
+#### This tool is made for use in Penetration Testing tasks. Use at your own risk.
 
 All the following console commands refer to linuxoid operating systems. They have been tested using Manjaro/Arch Linux.
 For Windows instructions see the documentation of the corresponding application.
