@@ -13,12 +13,13 @@ $$ |      \$$$$$$  |$$ |                          $$ |
 
 
 ```
-
 ***
+##Automated successs verification of exploits for Penetration Testing with Metasploit
+####This tool is made for use in Penetration Testing tasks. Use at your own risk.
 
 All the following console commands refer to linuxoid operating systems. They have been tested using Manjaro/Arch Linux.
 For Windows instructions see the documentation of the corresponding application.
-
+***
 # Setup
 
 1. Install Metasploit Framework + PostgreSQL.
@@ -70,5 +71,5 @@ Some more parameters can be changed in ```config.py```:
 
 # Known Issues
 - ``` Bind failed: Port already in use```
-Happens sometimes, if a Metasploit handler does not free the port or is still listening (which is nothing the pyperpwn can change in any way). Try to restart MSFRPCD and rerun the application, maybe switch to another LPORT or use bind payloads for the concerned exploits. Maybe also consider adding the functionality to randomize the LPORT choice (in a given port range). This is probably because pymetasploit returns the exploit output in some cases before the exploit execution has actually finished.
+Happens sometimes, when a Metasploit handler does not free the port or is still listening (which is nothing the pyperpwn can change in any way). Try to restart MSFRPCD and rerun the application, maybe switch to another LPORT or use bind payloads for the concerned exploits. Maybe also consider adding the functionality to randomize the LPORT choice (in a given port range). This is probably because pymetasploit returns the exploit output in some cases before the exploit execution has actually finished.
 - Sessions are not yet closed via the function offered by pymetasploit3, but via a direct command to the concerned shell. This should be changed.
