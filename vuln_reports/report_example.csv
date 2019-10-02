@@ -1,0 +1,7 @@
+IP,Port,Protocol,CVSS,Severity,Solution Type,Name,CVEs,Detection Method,BIDs,CERTs
+10.13.13.104,80,tcp,6.8,Medium,VendorFix,TWiki Cross-Site Request Forgery Vulnerability - Sep10,CVE-2009-4898,"
+Details:
+TWiki Cross-Site Request Forgery Vulnerability - Sep10
+(OID: 1.3.6.1.4.1.25623.1.0.801281)
+Version used: $Revision: 12952 $
+",,

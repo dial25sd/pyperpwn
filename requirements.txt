@@ -1,0 +1,14 @@
+certifi==2019.3.9
+chardet==3.0.4
+dacite==1.0.2
+http-client==0.1.22
+idna==2.8
+msgpack==0.6.1
+msgpack-python==0.5.6
+pycurl==7.43.0.2
+pymetasploit3==1.0.2
+pymongo==3.8.0
+python-nmap==0.6.1
+requests==2.22.0
+six==1.12.0
+urllib3==1.25.3
